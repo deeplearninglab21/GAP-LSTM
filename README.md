@@ -10,5 +10,7 @@ You can use this file to calculate the used metrics and ensure that they match w
 
 We provide a simple script, **results-collector.py**, that you can use for this goal.
 Before launching it, make sure that it is in the same folder as the preds folder.
+You will also need to have numpy and pandas installed in your python environment.
 Then, just run `python results-collector.py` from the same folder.
 The results will be output in **results.csv**.
+For convenience, this file is already provided in this repository.
