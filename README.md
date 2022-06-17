@@ -3,8 +3,6 @@
 
 This repository contains all the materials necessary to replicate experiments in the paper.
 
-**Note: this is currently a WIP.**
-
 The **preds** folder contains a .csv file for every run (model, dataset).
 Each file contains a column for the ground truth and a column for the predicted value, for every prediction timestep and every node.
 The row order is nodes first (changing the fastest), then timestep, and test sequences last (changing the slowest).
@@ -16,3 +14,7 @@ You will also need to have numpy and pandas installed in your python environment
 Then, just run `python results-collector.py` from the same folder.
 The results will be output in **results.csv**.
 For convenience, this file is already provided in this repository.
+
+The source code of GAP-LSTM as well as the competitors is currently undergoing a polishing and readability procedure.
+It will be published as soon as it is completed, along with a complete and detailed description of how to run the models.
+We will also provide a simple driver program to run the experiments.
