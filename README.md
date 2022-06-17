@@ -5,7 +5,7 @@ This repository contains all the materials necessary to replicate the experiment
 
 The **preds** folder contains a .csv file for every run (model, dataset).
 Each file contains a column for the ground truth and a column for the predicted value, for every prediction timestep and every node.
-The row order is nodes first (changing the fastest), then timestep, and test sequences last (changing the slowest).
+The row order is nodes first (changing fastest), then timestep, and test sequences last (changing slowest).
 You can use this file to calculate the used metrics and ensure that they match with the results in the paper.
 
 We provide a simple script, **results-collector.py**, that you can use for this goal.
