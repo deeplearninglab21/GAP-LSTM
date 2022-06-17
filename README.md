@@ -17,6 +17,6 @@ For convenience, this file is already provided in this repository.
 
 The **data** folder contains the test sequences' indexes (dataset-name_0.1.npy), the indexes of sequences used for hyperparameter optimization (dataset-name_0.01.npy), and the closeness graph matrix (closeness-dataset-name.npy).
   
-The source code of GAP-LSTM as well as the competitors is currently undergoing a polishing and readability procedure.
+The source code of GAP-LSTM as well as the competitors is currently undergoing a polishing and documenting procedure.
 It will be published as soon as it is completed, along with a complete and detailed description of how to run the models.
 We will also provide a additional driver program to run the experiments.
